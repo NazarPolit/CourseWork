@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+}
+
+html {height: 100%}
+body{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    color: #333;
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+}
+img{
+    max-width:100%;
+    height: auto;
+    width: auto\9;
+}
+a{
+    color:yellow;
+    text-decoration: none;
+}   
+a:hover{
+    color:#efdea0;
+}
+.clear{
+    clear:both;
+}
+/* Стилі для шапки */
+header {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: rgb(29, 146, 255);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header #logo {
+    width: 34%;
+    float: left;
+}
+
+header #logo a {
+    color: #fff;
+    font-size: 2em;
+    font-family: Times New Roman, sans-serif;
+}
+
+header #menuHead {
+    width: 64%;
+    color: #fff;
+    float: left;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+header #menuHead #userExit{
+    width: 50%;
+    color: #fff;
+    float: right;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+
+header #logo span {
+    color: #FFFF00;
+}
+
+/*Стилі для всього документа*/
+
+#wrapper {
+    height:auto;
+    width: 80%;
+    float:left; 
+    margin-left: 10%;
+}
+/* Cтилі для лівої колонки */
+
+#wrapper {
+    width: 80%;
+    float: left;
+}
+
+#leftCol  {
+    width: 70%; 
+    float: left;
+    margin-right: 5%;
+}
+
+#wrapper #left #bigArticle{
+    width: 40%;
+    margin-left:10%;
+    float:left;
+    background-color: #f0efef;
+    padding: 1%;
+}
+
+#left .article {
+    width: 30%; 
+    margin: 10px;
+    background-color: #f0efef;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#left .article  img {
+    max-width: 100%;
+    height: auto;
+}
+
+#left .article .more {
+    background-color: #6d6d6d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#left .moreNews {
+    background-color: #6d6d6d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#left .article .more:hover {
+    background-color: #a2a2a2;
+}
+
+#left .article h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#left .article p {
+    font-size: 1em;
+    margin: 0;
+}
+
+/* Cтилі для правої колонки */
+#wrapper #rightCol{
+    width: 25%;    
+    float: right;
+}
+
+#wrapper #rightCol .banner{
+    width:80%;
+    float:right;
+    margin-left: 10px;
+    margin-bottom:20px;
+}  
+
+/* Стилі для сторінки "About Us" */
+#leftCol #about_us {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0efef;
+}
+
+#leftCol #about_us p {
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#leftCol #about_us p1 {
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+
+/* Стилі для Feedback*/
+ #wrapper #leftCol input{
+    width:40%;
+    margin-left: 30%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color:rgb(35, 36, 37);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#wrapper #leftCol input#email{
+    margin-top:12%;
+}
+
+#wrapper #leftCol input#email:focus{
+    border:2px solid rgb(127, 197, 255);
+}
+
+#wrapper #leftCol input#subject:focus{
+    border:2px solid rgb(127, 197, 255);
+}
+
+#wrapper #leftCol textarea:focus{
+    border:2px solid rgb(127, 197, 255);
+}
+
+#wrapper #leftCol input#done{
+    color: rgb(128, 128, 128);
+}
+
+#wrapper #leftCol input#done:hover{
+    border:2px solid rgb(21, 199, 199);
+    cursor:pointer;
+}
+
+#wrapper #leftCol input#done:active{
+    background-color: rgb(216, 216, 216);
+} 
+
+ #wrapper #leftCol textarea{
+    width:50%;
+    height: 150px;
+    margin-left: 25%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color:rgb(35, 36, 37);
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    resize: none;
+} 
+
+#wrapper #leftCol #messageShow{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    color:crimson;
+    width:100%;
+    text-align: center;
+}
+
+/*Стилі для футтеру*/
+footer{
+    width:98%;
+    float: left;
+    padding:1%;
+    border-top:1px solid silver ;
+    background-color: #fff;
+    margin-top: 10px;  
+}
+
+footer #social{
+float: left;
+width: 50%;
+}
+
+footer #social img{
+width: 30px;
+height: 30px;
+float:left;
+margin-right: 10px;
+}
+
+footer #rights{
+    float: right;
+    width: 50%;
+    text-align: right;
+    color:silver;
+}
+
+/* Стилі для реєстрації */
+
+form{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10%
+}
+.container .text-center h1 {
+    margin-top: 10%;
+    text-align: center;
+}
